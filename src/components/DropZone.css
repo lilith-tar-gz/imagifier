@@ -1,0 +1,73 @@
+.inactiveDrop {
+  font-weight: bold;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  padding: 100px;
+  border-width: 3px;
+  border-radius: 4px;
+  border-color: #d103d1;
+  box-shadow: 5px 5px 5px 5px #000000;
+  outline: none;
+  transition: border 0.24s ease-in-out;
+  font-size: 20px;
+  background-color: #2e2e2e;
+  color: #ffffff;
+}
+.acceptDrop {
+  font-weight: bold;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  padding: 100px;
+  border-width: 3px;
+  border-radius: 4px;
+  border-color: #08eea9;
+  box-shadow: 5px 5px 5px 5px #000000;
+  outline: none;
+  transition: border 0.24s ease-in-out;
+  font-size: 20px;
+  background-color: #2e2e2e;
+  color: #08eea9;
+}
+.rejectDrop {
+  font-weight: bold;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  padding: 100px;
+  border-width: 3px;
+  border-radius: 4px;
+  border-color: #ec0f47;
+  box-shadow: 5px 5px 5px 5px #000000;
+  outline: none;
+  transition: border 0.24s ease-in-out;
+  font-size: 20px;
+  background-color: #2e2e2e;
+  color: #ec0f47;
+}
+.openButton {
+    position:relative;
+    width: auto;
+    color:#ecf0f1;
+    text-decoration:none;
+    border-radius:5px;
+    border:solid 1px #ce12f3;
+    background:#b822e6;
+    text-align:center;
+    padding:16px 18px 14px;
+    margin-top: 30px;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    transition: all 0.1s;
+  
+    -webkit-box-shadow: 0px 6px 0px #a200d3;
+    -moz-box-shadow: 0px 6px 0px #a200d3;
+    box-shadow: 0px 6px 0px #a200d3;
+  }
